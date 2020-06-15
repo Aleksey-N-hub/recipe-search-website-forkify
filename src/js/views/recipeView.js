@@ -128,6 +128,6 @@ export const updateServingsIngredients = (recipe) => {
   // Update ingredients
   const countElements = Array.from(document.querySelectorAll(".recipe__count"));
   countElements.forEach((el, index) => {
-    el.textContent = recipe.ingredients[index].count;
+    el.textContent = convertCount(recipe.ingredients[index].count);
   });
 };
