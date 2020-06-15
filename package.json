@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
-  "author": "Philip",
+  "author": "Alex",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.2",
